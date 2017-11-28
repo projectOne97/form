@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        Phil Baptiste
+        <a href="#">Home</a>   
+        <a href="#" jobs.html> My Jobs</a>   
+        <a href="#" about.html> About Me</a>   
+    
+    </header>
+
+    <div class=sidebar>
+      <ul>
+        <li><a href=#>Home</a></li>
+        <li><a href=jobs.html>Jobs</a></li>
+        <li><a href=about.html>About</a></li>
+    
+    </ul>  
+    </div>
+       
+<div class="main">
+    <form action="http://fvi-grad.com:4004/email" method="POST">
+        <input type="text" placeholder="Email" name="dest_email">
+        <input type="text" placeholder="Full Name" name="full_name">
+        <input type="text" placeholder="Phone" name="phone_num" >
+        <input type="text" placeholder="Date" name="date">
+        <input type="text" placeholder="Time" name="time">
+        <input type="text" placeholder="Sender Email" name="send_email">
+        <input type="text" placeholder="Subject" name="subject">
+        <textarea name="message" cols="30" rows="10">Enter Email Body</textarea>
+        <input type="submit" name="submit" value="Finish Email">
+    </form>						
+</div>
+    <footer>
+        Phil Baptiste Email: pbaptiste@techlaunch.io    
+    </footer>
+
+
+</body>
+</html>
