@@ -69,3 +69,9 @@ form input{
 form{
     margin: 0px 0px 0px 15px; 
        }
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
